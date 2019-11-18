@@ -19,5 +19,8 @@ class Artist
   end
   
   def genres
-    Song.
+    g_arr = []
+    
+    
+    
 end
