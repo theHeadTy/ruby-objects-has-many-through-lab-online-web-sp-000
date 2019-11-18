@@ -19,8 +19,8 @@ class Artist
   end
   
   def genres
-    g_arr = []
     
+    songs.map { |song| song.genre }
     
     
 end
