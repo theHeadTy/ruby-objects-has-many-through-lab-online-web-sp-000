@@ -15,7 +15,7 @@ class Patient
   end
   
   def doctors
-    Doctor.all.map { |doc| doc.
+    Appointment.all.select { |app| app.doctor 
 end
 
 
