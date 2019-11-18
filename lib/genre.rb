@@ -4,7 +4,7 @@ class Genre
   
   @@all = []
   
-  def intiialize(name)
+  def initialize(name)
     @name = name
     self.class.all << self
   end
